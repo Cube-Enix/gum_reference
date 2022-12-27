@@ -41,5 +41,6 @@ All variables are mutable by default. However, suffixing a "!" onto local/global
     }
 ```
 
-[<< Previous](docs/langconcepts.md)
-[>> Next](docs/arrays.md)
+[<< Previous: Language Concepts](langconcepts.md)
+
+[>> Next: Arrays](arrays.md)
