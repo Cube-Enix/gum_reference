@@ -21,6 +21,8 @@ Comments are not permitted within field definitions.
             -- and here
         }
 
+        Sprite.say(balances["blue"]) -- 4940
+
         local invalid = {
             "stop": -- but not here. "that is illegal" 
         }

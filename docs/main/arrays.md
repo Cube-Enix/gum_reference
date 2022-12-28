@@ -27,6 +27,34 @@ Acessing an element of an array is similar to most other languages: ARRAY_NAME[I
     }
 ```
 
+## Modifying Arrays
+
+There are several methods on arrays to modify them.
+You can use `.push()` to append to the end of an array, or `.pop()` to remove the last element of an array.
+
+> Using `.pop()` by itself discards the element, but you can use it in other ways. For example, using it in a variable definition will assign the popped element to the variable. See the example below.
+
+Use `.insert()` to insert within an array. Argument 1 should be the index to insert to, and argument 2 should be the thing to insert.
+
+There's also `.slice()`, which splits an array at an index, along with many more!
+
+```gum
+    {
+        local[] numbers = [1, 2, 3, 4, 5]
+
+        numbers.push(6)
+        numbers.push(7)
+
+        local lucky = local.pop() -- 7
+
+        numbers.insert(4, 4.5)
+        Sprite.say(numbers) -- 1, 2, 3, 4, 4.5, 5, 6
+
+        local[] smallNums = numbers.slice(2)[0] -- gets first half of the slice.
+        Sprite.say(smallNums) -- 1, 2, 3
+    }
+```
+
 [<< Previous: Variables](main/variables.md)
 
 [>> Next: Objects](main/objects.md)
