@@ -50,7 +50,7 @@ There's also `.slice()`, which splits an array at an index, along with many more
         numbers.insert(4, 4.5)
         Sprite.say(numbers) -- 1, 2, 3, 4, 4.5, 5, 6
 
-        local[] smallNums = numbers.slice(2)[0] -- gets first half of the slice.
+        local[] smallNums = numbers.slice(2)[0] -- gets first half of the slice
         Sprite.say(smallNums) -- 1, 2, 3
     }
 ```
