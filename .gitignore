@@ -4,3 +4,6 @@ node_modules
 docs/.nojekyll
 prism.ts
 prism.js
+.DS_Store
+docs/.DS_Store
+docs/assets/.DS_Store

@@ -11,6 +11,13 @@ Arrays, or lists, are declared the same as variables, just with "[]" after local
 
 > Remember: "!" always comes before "[]" in declaration!
 
+In sticky mode, you can declare a variable like so:
+```gum
+    {
+        local alt: string[] = ["another", "bloomin", "way"]
+    }
+```
+
 You seperate elements in an array with commas; the whitespace is optional. There should be no trailing commas.
 
 Unlike in other languages, you can mix and match types within an array. Arrays are weakly typed by default, however you can use sticky typing to strictly type an array. Sticky typing will be discussed further in the types section.
