@@ -1,4 +1,4 @@
 package.json
 package-lock.json
-.nojekyll
 node_modules
+docs/.nojekyll
