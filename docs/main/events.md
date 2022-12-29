@@ -50,6 +50,23 @@ This event is triggered when a clone is made.
         Sprite.say(i)
     }
 ```
+
+## @broadcast [BROADCAST_NAME]
+
+Broadcasts in Gum are transmitted with either the `broadcast()` or `broadcastSync()` function, where the argument is the broadcast name. Then, this event can be used to listen to the broadcast.
+
+?> `broadcastSync()` acts like the `broadcast and wait` block!
+
+```gum
+    @green_flag {
+        broadcast("hilarious")
+    }
+
+    @broadcast hilarious {
+        Sprite.say("the M25")
+    }
+```
+
 [<< Previous: Types](main/types.md)
 
 [>> Next: Loops](main/loops.md)
