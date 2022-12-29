@@ -6,6 +6,8 @@
     - [Objects](main/objects.md)
     - [Types](main/types.md)
     - [Events](main/events.md)
-    - [Broadcasts](main/broadcasts.md)
-    - [Statements](main/statements.md)
+    - [Loops](main/loops.md)
+    - [Control Flow](main/controlflow.md)
+    - [Functions](main/functions.md)
+
    

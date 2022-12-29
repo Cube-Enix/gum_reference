@@ -43,6 +43,8 @@ You can use `.push()` to append to the end of an array, or `.pop()` to remove th
 
 Use `.insert()` to insert within an array. Argument 1 should be the index to insert to, and argument 2 should be the thing to insert.
 
+You can fill an array with a predefined value using `.fill()`, where Argument 1 is the amount of elements, and Argument 2 is the value to fill with.
+
 There's also `.slice()`, which splits an array at an index, along with many more!
 
 ```gum
@@ -53,6 +55,9 @@ There's also `.slice()`, which splits an array at an index, along with many more
         numbers.push(7)
 
         local lucky = local.pop() -- 7
+
+        local[] bestNumber = []
+        bestNumber.fill(30000, 68)
 
         numbers.insert(4, 4.5)
         Sprite.say(numbers) -- 1, 2, 3, 4, 4.5, 5, 6
