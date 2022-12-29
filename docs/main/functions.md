@@ -30,6 +30,30 @@ Unlike in Scratch, you can return things in functions with the return keyword.
     }
 ```
 
+## Anonymous functions
+
+Gum supports anonymous functions, which can open the door to functional programming. These functions can have infinite arguments, but must consist of 1 return statement.
+
+?> The return statement is implied in the "=>", so you don't need to use the keyword here.
+
+```gum
+    {
+        local x = (a, b) => a * b;
+    }
+```
+
+## Instant functions
+
+Instant functions tell the Gum compiler that a function should "run without screen refresh" in the final .sb3.
+
+!> Misuse of these functions can result in a project running very slowly!
+
+```gum
+    instant fn calculate() {
+        return 15 + 33
+    }
+```
+
 ## Risky functions
 
 !> This section documents an unsupported feature. The Gum devs take no responsibility for anything that goes wrong while using this feature. **You have beeen warned!**
@@ -41,5 +65,4 @@ A risky function is an equivalent to Scratch's hacked blocks. They can be used t
         -- hacked block shenanigans
     }
 ```
-
 [<< Previous: Control Flow](main/controlflow.md)
